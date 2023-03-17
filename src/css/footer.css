@@ -1,0 +1,137 @@
+footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    background: #1E1823;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.container-footer {
+    max-width: 428px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.title-footer {
+    margin-bottom: 32px;
+}
+
+.first-slogan-footer {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #FD9222;
+    display: inline;
+}
+
+.second-slogan-footer {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    display: inline;
+}
+
+.text-footer {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    margin-bottom: 14px;
+}
+
+.item-footer {
+    position: relative;
+}
+
+.link-footer, .link-footer-mail{
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em; 
+}
+
+.link-footer-mail::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    width: 280px;
+    height: 0px;
+    top: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contacts-main-footer {
+    display: flex;
+}
+
+.contacts-footer {
+    display: inline-block;
+}
+
+
+
+.social-media-footer {
+    display: inline-block;
+    margin-left: auto;
+}
+
+.soc-list-footer {
+    display: flex;
+    gap: 14px;
+}
+
+.nav-footer {
+    margin-top: 32px;
+}
+
+.nav-item-footer:not(:last-child) {
+   margin-bottom: 18px;
+}
+
+.nav-link-footer {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+
+.icon-footer {
+    fill:#FFFFFF;
+}
+
+.icon-footer-inst {
+    stroke: #FFFFFF;
+    fill: #1E1823;
+}
+
+@media screen and (min-width: 375px) {
+    .link-footer-mail::after {
+        width: 335px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container-footer {
+        max-width: 768px;
+    }
+
+    .link-footer-mail::after {
+        width: 728px;
+    }
+}
