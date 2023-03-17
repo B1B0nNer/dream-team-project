@@ -1,5 +1,6 @@
 :root {
   --accent-color: #fd9222;
+  --transition-dur-and-fun: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -78,6 +79,16 @@ ul {
 }
 
 .header-logo-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #111111;
+}
+
+.header-logo-text {
   margin-right: 4px;
 }
 
@@ -123,8 +134,8 @@ ul {
   visibility: hidden;
   pointer-events: none;
 
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity var(--transition-dur-and-fun),
+    visibility var(--transition-dur-and-fun);
 }
 
 .mob-menu.is-open {
@@ -183,6 +194,8 @@ ul {
 }
 
 .mob-menu-item {
+  font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -285,6 +298,11 @@ ul {
     margin-right: 188px;
   }
 
+  .header-logo-text {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+
   .header-list {
     display: flex;
     gap: 24px;
@@ -297,6 +315,8 @@ ul {
   }
 
   .header-link {
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -312,7 +332,7 @@ ul {
   }
 
   .header-soc-icon {
-    color: #1e1823;
-    background-color: #fcf1e0;
+    stroke: #111111;
+    fill: #fcf1e0;
   }
 }
