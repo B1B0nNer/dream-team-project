@@ -15,6 +15,9 @@
 .advantages-item {
     list-style: none;
 }
+/* .advantages-icon {
+    fill: #FD9222;
+} */
 .advantages-title {
     font-family: 'Montserrat';
     font-weight: 600;
@@ -24,7 +27,6 @@
 }
 .advantages-text {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
