@@ -8,22 +8,21 @@ $(document).ready(function(){
         pauseOnFocus:true,
         pauseOnHover:true,
         pauseOnDotsHover:true,
-        variableWidth:true,
-        slidesToShow:3,
-        responsive:[
-            {
-                breakpoint: 768,
+        slidesToShow:4,
+		responsive:[
+			
+			{
+				breakpoint: 768,
 				settings: {
 					slidesToShow:2
 				}
-            },{
-                breakpoint: 405,
+			},
+			{
+				breakpoint: 767,
 				settings: {
 					slidesToShow:1
 				}
-            }
-        ],
-        mobileFirst:true
-    });
-		
+			}
+		]
+	});
 });

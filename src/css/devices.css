@@ -2,9 +2,29 @@
     .container{
         max-width: 724px;
     }
+    .products-section{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .products-subtitle{
+        margin-bottom: 50px;
+    }
+    .slider-item{
+        min-width: 270px;
+    }
 }
 @media screen and (min-width:1200px) {
     .container{
         max-width: 1176px;
+    }
+    .products-section{
+        margin-top: 128px;
+        margin-bottom: 128px;
+    }
+    .products-subtitle{
+        margin-bottom: 50px;
+    }
+    .slider-item{
+        min-width: 0px;
     }
 }
