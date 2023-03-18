@@ -73,12 +73,27 @@ img {
 
 .made-img-thumb {
     margin-bottom: 20px;
+    position: relative;
+}
+
+.img-made{
+    margin: auto;
+}
+
+.made-icon {
+    stroke: #F5F4F4;
+    fill: none;
+    position: absolute;
+    top: 233px;
+    left: 150px;
 }
 
 .made-wrap {
-    padding: 20px 14px;
-    background-color: #ffffff;
-    border-radius: 15px;
+padding: 20px 14px;
+background-color: #ffffff;
+border-radius: 15px;
+width: 307px;
+margin: 0 auto;
 
 }
 
@@ -149,6 +164,13 @@ img {
 
     .made-img-thumb {
         margin-bottom: 52px;
+    }
+
+    .made-icon {
+        top: 50%;
+        left: 50%;
+        width: 44px;
+        height: 44px;
     }
 
     .img-made {
