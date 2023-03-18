@@ -119,31 +119,31 @@ h2 {
     }
     .advantages-list {
         display: flex;
-        /* gap: 70px; */
-        /* position: relative; */
+        gap: 70px;
+        
     }
-    
     .advantages-item {
         max-width: 308px;
-        margin-right: 18px;
-        /* position: relative; */
         
     }
     
     .advantages-text {
         max-width: 308px;
     }
-    
-    .advantages-lines {
-        border-right: 1px solid rgba(255, 255, 255, 0.5);
-        height: 124px;
-        margin-top: auto;
-        margin-bottom: auto;
 
+    .advantages-line {
+        border-right: 1px solid rgba(255, 255, 255, 0.5);
+            height: 124px;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding-right: 18px;
+            
+            
     }
-    .advantages-lines:not(:last-child) {
-        margin-right: 70px;
-    }
+    
+    
+
+    
     
 }
 
