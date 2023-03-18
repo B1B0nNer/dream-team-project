@@ -319,6 +319,7 @@ img {
   padding: 0;
   background-color: transparent;
   border: none;
+  border-radius: 50%;
   cursor: pointer;
   transition: background 250ms linear;
 }
@@ -366,6 +367,10 @@ img {
   background-color: #fafafa;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 100px;
+  transition: background 250ms linear;
+}
+.btn-weight:is(:hover, :focus) {
+  background-color: var(--color-auxiliary);
 }
 @media screen and (min-width: 768px) {
   .modal-hero {
@@ -434,6 +439,7 @@ img {
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 8px;
 }
+
 .input-hero::placeholder {
   font-size: 14px;
   line-height: 1.21;
