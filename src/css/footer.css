@@ -34,6 +34,7 @@ a {
 }
 
 .first-slogan-footer {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 1.17;
@@ -43,6 +44,7 @@ a {
 }
 
 .second-slogan-footer {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 1.17;
@@ -52,6 +54,7 @@ a {
 }
 
 .text-footer {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
@@ -60,6 +63,7 @@ a {
 
 
 .link-footer, .link-footer-mail{
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em; 
@@ -112,6 +116,7 @@ a {
 }
 
 .nav-link-footer, .nav-links-footer {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -136,7 +141,6 @@ a {
 
     .container-footer {
         max-width: 768px;
-        
     }
 
     .footer-wrap {
