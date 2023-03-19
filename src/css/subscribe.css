@@ -143,6 +143,7 @@ img {
 }
 
 /* Subscribe backdrom and modal */
+
 .subscribe-backdrop-hiden {
     /* Visual */
     opacity: 0;
@@ -162,6 +163,7 @@ img {
     position: absolute;
     left: 0;
     top: 0;
+    overflow-x: auto;
 
     /* Visual */
     background-color: #00000060;
@@ -172,7 +174,7 @@ img {
 
 .subscribe-modal {
     /* Box model */
-    max-width: 311px;
+    min-width: 311px;
     height: 350px;
 
     /* Positioning */
