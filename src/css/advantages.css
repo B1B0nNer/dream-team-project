@@ -18,6 +18,13 @@ h2 {
 .advantages {
     background: #1E1823;
 }
+
+.advantages-container {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .visually-hidden {
     white-space: nowrap;
     width: 1px;
@@ -29,12 +36,10 @@ h2 {
     clip-path: inset(50%);
     margin: -1px;
 }
-.advantages-list {
-    
-}
+
 .advantages-item {
     max-width: 308px;
-    position: relative;
+    /* position: relative; */
 }
 
 .line::after {
@@ -81,7 +86,6 @@ h2 {
     
 
 }
-
 
 @media  screen and (min-width: 375px) {
     .advantages-container {
