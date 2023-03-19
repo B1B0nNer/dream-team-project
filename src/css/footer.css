@@ -157,10 +157,11 @@ a {
     .title-footer {
         width: 300px;
         margin-bottom: 0;
+        margin-right: 124px;
     }
 
-    .contacts-main-footer {
-        margin-left: auto;
+    .contacts-footer {
+        margin-right: 50px;
     }
 
     .nav-footer {
@@ -197,6 +198,14 @@ a {
 
     .footer-wrap {
         max-width: 1200px;
+    }
+
+    .title-footer {
+        margin-right: 543px;
+    }
+
+    .contacts-footer {
+        margin-right: 63px;
     }
 
     .nav-footer {
