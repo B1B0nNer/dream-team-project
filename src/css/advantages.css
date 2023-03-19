@@ -34,8 +34,21 @@ h2 {
 }
 .advantages-item {
     max-width: 308px;
+    position: relative;
 }
 
+.line::after {
+    content: "";
+    position: absolute;
+    top: 130px;
+    display: none;
+    right: -62px;
+    width: 124px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: rotate(90deg);
+
+}
 .advantages-icon-wrap {
     display: flex;
     justify-content: center;
@@ -97,6 +110,9 @@ h2 {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .advantages-item {
+        max-width: 308px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -106,9 +122,7 @@ h2 {
         gap: 32px;
         
     }
-    .advantages-item {
-        max-width: 308px;
-    }
+    
 }
 
 @media screen and (min-width: 1200px) {
@@ -123,27 +137,18 @@ h2 {
         
     }
     .advantages-item {
-        max-width: 308px;
-        
+        padding-right: 18px;
+        position: relative;
+    }
+
+    .line::after {
+        display: block;
+
     }
     
     .advantages-text {
         max-width: 308px;
     }
 
-    .advantages-line {
-        border-right: 1px solid rgba(255, 255, 255, 0.5);
-            height: 124px;
-            margin-top: auto;
-            margin-bottom: auto;
-            padding-right: 18px;
-            
-            
-    }
-    
-    
-
-    
-    
 }
 
