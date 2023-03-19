@@ -1,6 +1,8 @@
 @media screen and (min-width:768px) {
     .container{
-        max-width: 724px;
+        max-width: 770px;
+        padding-left: 33px;
+        padding-right: 33px;
     }
     .products-section{
         margin-top: 100px;
@@ -15,7 +17,9 @@
 }
 @media screen and (min-width:1200px) {
     .container{
-        max-width: 1176px;
+        max-width: 1202px;
+        padding-left: 33px;
+        padding-right: 33px;
     }
     .products-section{
         margin-top: 128px;
