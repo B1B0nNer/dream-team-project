@@ -438,6 +438,8 @@ img {
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 8px;
+  outline: none;
+  transition: border-color 250ms linear;
 }
 
 .input-hero::placeholder {
@@ -492,6 +494,8 @@ img {
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 8px;
+  outline: none;
+  transition: border-color 250ms linear;
 }
 .btn-submit-hero {
   display: block;
@@ -507,6 +511,10 @@ img {
   cursor: pointer;
   border-radius: 100px;
   transition: color 250ms linear, background 250ms linear;
+}
+.input-hero:placeholder-shown:focus,
+.hero-textarea:placeholder-shown:focus {
+  background-color: var(--color-auxiliary);
 }
 .btn-submit-hero:is(:hover, :focus) {
   color: var(--color-auxiliary);
