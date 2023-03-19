@@ -265,7 +265,7 @@ ul {
   }
 
   .menu-open{
-    opacity: 0;
+    opacity: 1;
     transition: opacity 125ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
