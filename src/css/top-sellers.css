@@ -288,16 +288,24 @@ display: block;
   color: rgba(64, 64, 64, 0.3);
 
 }
-.seller-modal-input:nth-of-type(3) ::placeholder{
-  content: "|";
-  margin-right: 5px;
+.input-phone::placeholder{
+padding-left: 60px;
+margin-left: 55px;
+
 }
+  
 .modal-wrap{
   position: relative;
 }
 .modal-icon {
   position: absolute;
   left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.modal-code{
+  position: absolute;
+  left: 45px;
   top: 50%;
   transform: translateY(-50%);
 }
