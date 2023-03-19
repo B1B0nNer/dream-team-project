@@ -92,8 +92,8 @@
   <div class="backdrop is-hidden" data-menu>
     <div class="modal">
       <button type="button" class="modal-close" data-menu-close>
-        <svg class="modal-close-icon" width="12" height="12">
-          <use href="/src/public/icons.svg#icon-Coin"></use>
+        <svg class="modal-close-icon" width="24" height="24">
+          <use href="./public/icons.svg#icon-x"></use>
         </svg>
       </button>
       <p class="modal-title">
@@ -128,15 +128,18 @@
           </div>
 
           <div class="modal-field">
-            <label class="modal-input-text" for="phone"></label>
+            <label for="phone"></label>
             <div class="input-wrap">
               <input
                 type="tel"
                 name="phone"
-                class="modal-input"
+                class="modal-input input-tel"
                 id="phone"
                 placeholder="Phone number"
               />
+              <svg class="modal-icon" width="74" height="25">
+                <use href="./public/icons.svg#icon-flag"></use>
+              </svg>
             </div>
           </div>
         </div>

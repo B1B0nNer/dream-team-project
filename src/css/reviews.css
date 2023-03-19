@@ -148,7 +148,7 @@ p {
   width: 85%;
   background: #fafafa;
   border-radius: 15px;
-  padding: 24px;
+  padding: 20px;
   z-index: 2;
 }
 
@@ -158,18 +158,16 @@ p {
   justify-content: center;
   width: 24px;
   height: 24px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #fafafa;
+  background: #fafafa;
   margin-left: auto;
   padding: 0;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
 
-.modal-close-icon {
-  stroke: #111;
-}
-
 .modal-title {
+  max-width: 255px;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -207,25 +205,31 @@ p {
   border-radius: 8px;
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   background-color: transparent;
+  outline: transparent;
   padding: 14px 18px;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: -0.02em;
-  color: rgba(64, 64, 64, 0.3);
+  color: black;
   transition-property: background-color, border-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
 
+.input-tel {
+  padding-left: 101px;
+}
+
 .modal-input:focus {
-  border-color: #8e8f99;
+  border-color: rgba(17, 17, 17, 0.05);
 }
 
 .modal-icon {
   position: absolute;
   left: 16px;
   top: 50%;
+  border-right: solid 1px rgba(64, 64, 64, 0.3);
   transform: translateY(-50%);
   transition-property: fill;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -245,7 +249,7 @@ p {
   font-size: 14px;
   line-height: 17px;
   letter-spacing: -0.02em;
-  color: rgba(64, 64, 64, 0.3);
+  color: black;
   background: transparent;
   outline: transparent;
   padding: 14px 18px;
@@ -263,7 +267,7 @@ p {
 }
 
 .modal-input-textarea:focus {
-  border-color: #8e8f99;
+  border-color: rgba(17, 17, 17, 0.05);
 }
 
 .modal-button {
@@ -291,7 +295,7 @@ p {
 }
 
 .modal-button:is(:hover, :focus) {
-  background-color: #FCF1E0;
+  background-color: #fcf1e0;
   color: #fd9222;
 }
 
@@ -304,6 +308,68 @@ p {
 @media only screen and (min-width: 768px) {
   .reviews-container {
     max-width: 768px;
+  }
+
+  .modal {
+    min-width: 517px;
+    min-height: 631px;
+    padding: 30px;
+  }
+
+  .modal-title {
+    max-width: 298px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 0;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .choco {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .modal-field {
+    margin-bottom: 20px;
+  }
+
+  .modal-input {
+    height: 66px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+  }
+
+  .modal-input-name {
+    font-size: 18px;
+  }
+
+  .input-wrap {
+    margin-bottom: 20px;
+  }
+
+  .input-tel {
+    padding-left: 165px;
+  }
+
+  .modal-icon {
+    width: 125px;
+    height: 32px;
+  }
+
+  .modal-input-textarea {
+    height: 137px;
+    font-size: 18px;
+  }
+
+  .modal-input-textarea::placeholder,
+  .modal-input::placeholder {
+    font-size: 18px;
   }
 }
 
