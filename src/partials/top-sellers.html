@@ -47,8 +47,79 @@
                         a bean just like the coffee bean called Cacao. Cacao has been around for thousands 
                         of years and was first discovered by
                          the Native American tribe called the Mayans.</p>
-                    <button class="top-sellers-btn" type="button">Buy now</button>
+                    <button  type="button" class="top-sellers-btn "  data-modal-open >Buy now</button>
                 </div>
  
         </div>
     </section>
+    
+<div class="top-seller-backdrop is-hidden" data-modal>
+    <div class="top-seller-modal">
+        <button  type="button" class="top-seller-modal-close-btn" data-modal-close >
+            <svg class="top-sellers-x-icon" width="24" height="24"><use href="../public/icons.svg#icon-x"></use></svg>
+        </button>
+        
+        <p class="top-sellers-header"><span>Buy</span> now</p>
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img class="slider-img" src="../img/top-sellers/kisspng-chocolate-bar.png" alt="chocholate">
+                <button  type="submit" class="waight-btn">100 g</button>
+            </div>
+              <div class="swiper-slide"><img class="slider-img" src="../img/top-sellers/kisspng-chocolate-bar.png" alt="chocholate">
+                <button  type="submit" class="waight-btn">200 g</button></div>
+              <div class="swiper-slide"><img class="slider-img" src="../img/top-sellers/kisspng-chocolate-bar.png" alt="chocholate">
+                <button  type="submit" class="waight-btn">300 g</button></div>
+        
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+          
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+
+        <form class=" top-seller-modal-form">
+            <label class="modal-field"> <span class="input-text">Personal information</span >
+                <input type="text" name="user-name" class="seller-modal-input" placeholder="Name" required>
+            </label >
+            <input type="text" name="user-surname" class="seller-modal-input" placeholder="Surname">
+            <labl class="modal-field"> <span class="input-text">Email</span >
+                <input type="text" name="user-email" class="seller-modal-input" placeholder="Enter your email">
+            </labl >
+            <label class="modal-field">
+                <span class="input-text">Phone number</span >
+                <span class="modal-wrap">
+                    <input type="text" name="user-tel" class="seller-modal-input"  placeholder="Phone number">
+                    <svg class="modal-icon" width="24" height="18"><use href="../public/icons.svg#icon-Icon"></use></svg>
+                </span >
+            </label >
+            <label class="modal-field"><span class="input-text">Card number</span >
+                <input type="text" name="user-card" class="seller-modal-input" placeholder="Enter card">
+            </label >
+            
+            <button type="submit" class="top-sellers-btn">Submit</button>
+        </form>
+        
+
+
+
+    </div> 
+        <!-- Slider main container -->
+
+</div>
+
+
+
+
+<script src="../js/top-seller-modal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="../js/swiper.js"></script>
+<script src="../js/country-list.js"></script>
