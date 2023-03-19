@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 h1,
 h2,
@@ -69,7 +69,7 @@ ul {
 }
 
 .header-logo {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: italic;
   font-weight: 700;
   font-size: 14px;
@@ -79,7 +79,7 @@ ul {
 }
 
 .header-logo-text {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -95,7 +95,7 @@ ul {
 .header-icon-logo {
   display: inline-block;
   vertical-align: middle;
- fill: #FCF1E0;
+  fill: #fcf1e0;
 }
 
 /* ======== Mob. menu ======= */
@@ -120,38 +120,31 @@ ul {
   vertical-align: middle;
 }
 
-
-.header-page {
-  position: relative;
-  overflow: hidden;
-}
-
 .mob-menu {
   position: fixed;
   min-width: 220px;
   height: 100%;
 
-  z-index: 100;
   top: 0;
   right: 0;
   background-color: #1e1823;
 
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
   overflow: auto;
-  transform: translateX(100%);
   transition: transform var(--transition-dur-and-fun);
 }
 
-.menu-open:is(:hover, :focus) .mob-menu {
-  transform: translateX(0);
+.mob-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
 }
-
-.menu-close:is(:hover, :focus) .mob-menu {
-  transform: translateX(100%);
-}
-
 
 .mob-menu-container {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -160,10 +153,9 @@ ul {
   height: 100%;
   top: 0;
   right: 0;
- 
-  padding: 136px 20px 20px 20px;
- }
 
+  padding: 136px 20px 20px 20px;
+}
 
 .menu-close {
   position: absolute;
@@ -189,7 +181,8 @@ ul {
 }
 
 .menu-thumb-list {
-  padding-left: 50px;
+  padding-left: 30px;
+  padding-right: 26px;
 }
 .mob-menu-list {
   display: flex;
@@ -199,7 +192,7 @@ ul {
 }
 
 .mob-menu-item {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -243,6 +236,9 @@ ul {
   stroke: var(--accent-color);
 }
 
+
+
+
 /* ====== Tablet ======== */
 
 @media screen and (min-width: 768px) {
@@ -265,6 +261,9 @@ ul {
     width: 32px;
     height: 32px;
   }
+.mob-menu{
+  min-width: 290px;
+}
 
   .menu-close {
     top: 24px;
@@ -279,6 +278,10 @@ ul {
     width: 14px;
     height: 14px;
   }
+
+  .mob-menu-container {
+   padding: 156px 61px 24px 65px;
+}
 }
 
 /* ======== Desktop ========= */
@@ -320,7 +323,7 @@ ul {
   }
 
   .header-link {
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -338,6 +341,6 @@ ul {
 
   .header-soc-icon {
     stroke: #111111;
-    fill: #fcf1e0;
+    fill: #ffffff;
   }
 }
