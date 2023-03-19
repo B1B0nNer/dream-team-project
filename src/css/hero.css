@@ -514,7 +514,7 @@ img {
 }
 .input-hero:placeholder-shown:focus,
 .hero-textarea:placeholder-shown:focus {
-  background-color: var(--color-auxiliary);
+  border-color: var(--color-auxiliary);
 }
 .btn-submit-hero:is(:hover, :focus) {
   color: var(--color-auxiliary);
