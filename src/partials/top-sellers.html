@@ -66,12 +66,32 @@
             <div class="swiper-wrapper">
               <!-- Slides -->
               <div class="swiper-slide">
-                <img class="slider-img" src="../img/top-sellers/kisspng-chocolate-bar.png" alt="chocholate">
+                <img class="slider-img" 
+                src="../img/top-sellers/chocolate-pices-mob-modal.png"
+                srcset="
+                ../img/top-sellers/chocolate-pices-mob-modal.png 1x,
+                ../img/top-sellers/chocolate-pices-mob-modal-x2.png 2x"
+                
+                 alt="chocholate">
+                
                 <button  type="submit" class="waight-btn">100 g</button>
             </div>
-              <div class="swiper-slide"><img class="slider-img" src="../img/top-sellers/kisspng-chocolate-bar.png" alt="chocholate">
+              <div class="swiper-slide">
+                <img class="slider-img" 
+                src="../img/top-sellers/milk-chocolate-mob-modal.png" 
+                srcset="
+                ../img/top-sellers/milk-chocolate-mob-modal.png 1x,
+                ../img/top-sellers/milk-chocolate-mob-modal-x2.png 2x,"
+                alt="chocholate">
                 <button  type="submit" class="waight-btn">200 g</button></div>
-              <div class="swiper-slide"><img class="slider-img" src="../img/top-sellers/kisspng-chocolate-bar.png" alt="chocholate">
+              <div class="swiper-slide">
+                <img class="slider-img" 
+                src="../img/top-sellers/chocolate-plate-mob-modal.png"
+                srcset="
+                ../img/top-sellers/chocolate-plate-mob-modal.png 1x,
+                ../img/top-sellers/chocolate-plate-mob-modal-x2.png 2x,"
+
+                 alt="chocholate">
                 <button  type="submit" class="waight-btn">300 g</button></div>
         
             </div>
@@ -85,8 +105,79 @@
             <!-- If we need scrollbar -->
             <!-- <div class="swiper-scrollbar"></div> -->
         </div>
+        <form class="hero-form">
+          <div class="input-wrrap">
+            <label class="hero-label too">
+              <span class="sp-label"> Personal information</span>
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                class="input-hero one go"
+              />
+            </label>
+            <label class="hero-label">
+              <input
+                type="text"
+                name="surname"
+                placeholder="Surname"
+                class="input-hero one"
+            /></label>
+          </div>
+          <label class="hero-label">
+            <span class="sp-label"> Email</span>
 
-        <form class=" top-seller-modal-form">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              class="input-hero"
+            />
+          </label>
+          <label class="hero-label">
+            <span class="sp-label">Phone number</span>
+            <span class="container-span-phone">
+              <span class="wrrap-icon-phone">
+                <svg class="icon-ukr" width="24" height="24">
+                  <use href="../public/icons.svg#icon-Ukraine"></use>
+                </svg>
+                <span class="namber-hero">+380</span>
+              </span>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone number"
+                class="input-hero phone"
+            /></span>
+          </label>
+          <label class="hero-label">
+            <span class="sp-label"> Card number</span>
+            <span class="container-span-card">
+              <svg class="icon-card" width="32" height="21">
+                <use href="../public/icons.svg#MasterCard"></use>
+              </svg>
+              <input
+                type="number"
+                name="card number"
+                placeholder="Enter card"
+                class="input-hero"
+              />
+            </span>
+          </label>
+          <label class="hero-label">
+            <span class="sp-label"> Comment</span>
+            <textarea
+              name="comment"
+              cols="30"
+              rows="10"
+              placeholder="Enter text"
+              class="hero-textarea"
+            ></textarea>
+          </label>
+          <button type="submit" class="btn-submit-hero">Submit</button>
+        </form>
+
+        <!-- <form class=" top-seller-modal-form">
             <label class="modal-field"> <span class="input-text">Personal information</span >
                 <input type="text" name="user-name" class="seller-modal-input" placeholder="Name" required>
             </label >
@@ -116,7 +207,7 @@
               </label>
             
             <button type="submit" class="top-sellers-btn">Submit</button>
-        </form>
+        </form> -->
         
 
 
