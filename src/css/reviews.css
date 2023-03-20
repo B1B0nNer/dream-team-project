@@ -229,10 +229,6 @@ p {
   border-color: #fd9222;
 }
 
-.modal-input-textarea:is(:hover, :focus) {
-  border-color: #fd9222;
-}
-
 .modal-icon {
   position: absolute;
   left: 16px;
@@ -265,6 +261,10 @@ p {
   transition-duration: 250ms;
 }
 
+.modal-input-textarea:is(:hover, :focus) {
+  border-color: #fd9222;
+}
+
 .modal-input-textarea::placeholder,
 .modal-input::placeholder {
   font-family: 'Montserrat';
@@ -274,10 +274,6 @@ p {
   line-height: 17px;
   letter-spacing: -0.02em;
   color: rgba(64, 64, 64, 0.3);
-}
-
-.modal-input-textarea:focus {
-  border-color: rgba(17, 17, 17, 0.05);
 }
 
 .modal-button {
