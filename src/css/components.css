@@ -21,7 +21,7 @@ body {
 }
 
 .components {
-  padding-top: 72px;
+  padding: 72px;
   background-color: #fafafa;
 }
 
@@ -237,7 +237,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .components {
-    padding-top: 100px;
+    padding: 100px;
   }
 
   .components-container {
@@ -277,7 +277,7 @@ body {
     gap: 19px;
   }
   .components {
-    padding-top: 128px;
+    padding: 128px;
   }
 
   .components-container {
