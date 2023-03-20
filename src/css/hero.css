@@ -163,14 +163,16 @@ img {
   background-color: transparent;
   border-radius: 100px;
   border: 1px solid #ffffff;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
   transition: color 250ms linear, border 250ms linear;
 }
+
 .btn-modal:is(:hover, :focus) {
   background: #fcf1e0;
   color: var(--color-auxiliary);
 }
+
 .btn-link-section:is(:hover, :focus) {
   border-color: var(--color-auxiliary);
   color: var(--color-auxiliary);
