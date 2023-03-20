@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 footer {
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
@@ -67,6 +71,7 @@ a {
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em; 
+    font-style: normal;
 }
 
 .contacts-main-footer {
@@ -217,7 +222,7 @@ a {
     }
 
     .nav-links-footer::before {
-        width: 1160px;
+        width: 1107px;
         bottom: 40px;
     }
 }
