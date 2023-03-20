@@ -225,8 +225,12 @@ p {
   padding-left: 101px;
 }
 
-.modal-input:focus {
-  border-color: rgba(17, 17, 17, 0.05);
+.modal-input:is(:hover, :focus) {
+  border-color: #fd9222;
+}
+
+.modal-input-textarea:is(:hover, :focus) {
+  border-color: #fd9222;
 }
 
 .modal-icon {
@@ -257,6 +261,8 @@ p {
   background: transparent;
   outline: transparent;
   padding: 14px 18px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .modal-input-textarea::placeholder,

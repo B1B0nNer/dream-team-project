@@ -1,9 +1,7 @@
 const swiper = new Swiper('.swiper', {
-  // Optional parameters
   loop: true,
   spaceBetween: 28,
 
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
     clickable: true
