@@ -52,8 +52,7 @@ body {
 }
 
 .products-section {
-  padding-top: 72px;
-  padding-bottom: 72px;
+  margin: 72px 0;
 }
 
 .products-subtitle {
@@ -184,8 +183,7 @@ body {
       padding-right: 33px;
   }
   .products-section{
-      padding-top: 100px;
-      padding-bottom: 100px;
+      margin: 100px 0;
   }
   .products-subtitle{
       margin-bottom: 50px;
@@ -201,8 +199,7 @@ body {
       padding-right: 33px;
   }
   .products-section{
-      padding-top: 128px;
-      padding-bottom: 128px;
+      margin: 128px 0;
   }
   .products-subtitle{
       margin-bottom: 50px;

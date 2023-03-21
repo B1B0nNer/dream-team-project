@@ -12,7 +12,7 @@ ul {
 }
 
 .components {
-  padding: 72px 0;
+  margin: 72px 0;
   background-color: #fafafa;
 }
 
@@ -227,7 +227,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   .components {
-    padding: 100px 0;
+    margin: 100px 0;
   }
 
   .components-container {
@@ -267,7 +267,7 @@ ul {
     gap: 19px;
   }
   .components {
-    padding: 128px 0;
+    margin: 128px 0;
   }
 
   .components-container {
