@@ -56,7 +56,7 @@ ul {
 /*================== HEADER =================*/
 
 .header-page {
-  background-color: #ffffff;
+  background-color: #fafafa;
   padding-top: 20px;
   padding-bottom: 14px;
   top: 0;
@@ -88,9 +88,8 @@ ul {
   color: #111111;
 }
 
-
-
-.header-logo-text1, .header-logo-text2 {
+.header-logo-text1,
+.header-logo-text2 {
   margin-right: 4px;
 }
 
@@ -118,7 +117,7 @@ ul {
   transition: opacity 125ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-open.is-open{
+.menu-open.is-open {
   opacity: 0;
   transition: opacity 125ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -138,7 +137,6 @@ ul {
   right: 0;
   background-color: #1e1823;
 
-  
   transform: translateX(100%);
 
   pointer-events: none;
@@ -245,9 +243,6 @@ ul {
   stroke: var(--accent-color);
 }
 
-
-
-
 /* ====== Tablet ======== */
 
 @media screen and (min-width: 768px) {
@@ -266,7 +261,7 @@ ul {
     padding-bottom: 24px;
   }
 
-  .menu-open{
+  .menu-open {
     opacity: 1;
     transition: opacity 125ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -275,9 +270,9 @@ ul {
     width: 32px;
     height: 32px;
   }
-.mob-menu{
-  min-width: 290px;
-}
+  .mob-menu {
+    min-width: 290px;
+  }
 
   .menu-close {
     top: 24px;
@@ -294,8 +289,8 @@ ul {
   }
 
   .mob-menu-container {
-   padding: 156px 61px 24px 65px;
-}
+    padding: 156px 61px 24px 65px;
+  }
 }
 
 /* ======== Desktop ========= */
@@ -320,7 +315,8 @@ ul {
     margin-right: 188px;
   }
 
-  .header-logo-text1, .header-logo-text2 {
+  .header-logo-text1,
+  .header-logo-text2 {
     font-size: 18px;
     line-height: 1.11;
   }
@@ -346,6 +342,10 @@ ul {
     color: #111111;
   }
 
+  .header-link:is(:hover, :focus) {
+    stroke: var(--accent-color);
+  }
+
   .header-soc-list {
     display: flex;
     flex-direction: row;
@@ -356,5 +356,9 @@ ul {
   .header-soc-icon {
     stroke: #111111;
     fill: #ffffff;
+  }
+
+  .header-soc-icon:is(:hover, :focus) {
+    stroke: var(--accent-color);
   }
 }
