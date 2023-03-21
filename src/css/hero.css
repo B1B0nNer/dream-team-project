@@ -70,7 +70,7 @@ img {
   margin: -1px;
 }
 .hero {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .hero-wrapp {
   padding-top: 395px;
@@ -188,7 +188,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
   .hero-wrapp {
     padding-top: 671px;
@@ -240,7 +240,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
   .hero-wrapp {
     padding-top: 381px;

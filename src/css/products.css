@@ -1,3 +1,12 @@
+:root {
+  --orange-color:#fd9222;
+  --white-color:#ffffff;
+  --bkack-color:#111111;
+  --ashen-color: #FAFAFA;
+}
+
+
+
 p,
 h1,
 h2,
@@ -11,6 +20,15 @@ h6 {
 ul {
   margin: 0;
   padding-left: 0;
+}
+
+.modal-close-icon{
+  stroke: #000;
+  transition: stroke 250ms;
+}
+
+.modal-close:hover .modal-close-icon, modal-close:focus .modal-close-icon{
+  stroke: var(--orange-color);
 }
 
 .list {
@@ -31,12 +49,10 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
 }
 
 .products-section {
-  margin-top: 72px;
-  margin-bottom: 72px;
+  margin: 72px 0;
 }
 
 .products-subtitle {
@@ -47,19 +63,19 @@ body {
   text-align: center;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  color: #111111;
+  color: var(--bkack-color);
   margin-bottom: 32px;
 }
 
 .sub-orange {
-  color: #fd9222;
+  color: var(--orange-color);
 }
 
 .slider-item {
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
   padding: 32px 16px;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   min-width: 0px;
   
 }
@@ -82,7 +98,7 @@ body {
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.02em;
-  color: #111111;
+  color: var(--bkack-color);
 }
 
 .products-text {
@@ -98,8 +114,8 @@ body {
   font-weight: 600;
   font-size: 14px;
   line-height: calc(17 / 14);
-  color: #111111;
-  background-color: #FAFAFA;
+  color: var(--bkack-color);
+  background-color: var(--ashen-color);
   padding: 8px 20px;
   border-radius: 100px;
   border: 1px solid rgba(17, 17, 17, 0.1);
@@ -152,6 +168,43 @@ body {
 .slider-list .slick-dots li.slick-active button {
   width: 28px;
   height: 13px;
-  background-color: #fd9222;
+  background-color: var(--orange-color);
   border-radius: 7px;
+}
+
+
+
+/* ---------------DEVICES---------------- */
+
+@media screen and (min-width:768px) {
+  .container{
+      max-width: 770px;
+      padding-left: 33px;
+      padding-right: 33px;
+  }
+  .products-section{
+      margin: 100px 0;
+  }
+  .products-subtitle{
+      margin-bottom: 50px;
+  }
+  .slider-item{
+      min-width: 270px;
+  }
+}
+@media screen and (min-width:1200px) {
+  .container{
+      max-width: 1202px;
+      padding-left: 33px;
+      padding-right: 33px;
+  }
+  .products-section{
+      margin: 128px 0;
+  }
+  .products-subtitle{
+      margin-bottom: 50px;
+  }
+  .slider-item{
+      min-width: 0px;
+  }
 }
