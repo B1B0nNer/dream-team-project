@@ -48,5 +48,7 @@
 <path fill="#ff5e00" style="fill: var(--color4, #ff5e00)" d="M24.381 23.29c2.18-1.801 3.563-4.48 3.563-7.472s-1.383-5.671-3.563-7.472c-2.18 1.801-3.563 4.48-3.563 7.472s1.383 5.672 3.563 7.472z"></path>
 <path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.5238" d="M6.095 0.762h36.571c2.946 0 5.333 2.388 5.333 5.333v19.81c0 2.946-2.388 5.333-5.333 5.333h-36.571c-2.946 0-5.333-2.388-5.333-5.333v-19.81c0-2.946 2.388-5.333 5.333-5.333z"></path>
 </symbol>
+
+
 </defs>
 </svg>
