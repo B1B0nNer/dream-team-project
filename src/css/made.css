@@ -80,7 +80,7 @@ img {
     margin: auto;
 }
 
-/* .icon-container {
+.icon-container {
     position: relative;
     width: 35px;
     height: 35px;
@@ -97,9 +97,9 @@ img {
 
 .icon-container:hover .video-iframe {
     opacity: 1;
-} */
+}
 
-.made-icon {
+ .made-icon {
     stroke: #F5F4F4;
     fill: none;
     position: absolute;
@@ -148,6 +148,9 @@ margin: 0 auto;
     letter-spacing: -0.02em;
     color: #111111;
 }
+
+/*==================MODAL======================*/
+
 
 
 /*======================================MOBOLE-CSS-MADE=====================================*/
@@ -237,7 +240,6 @@ margin: 0 auto;
     }
 
     .made-wrap {
-        padding: 32px 32px 94px;
         width: 516px;
     }
 
