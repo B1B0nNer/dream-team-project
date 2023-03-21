@@ -199,6 +199,15 @@ img {
     background-color: transparent;
 }
 
+.subscribe-modal-close-svg{
+    stroke: #fff;
+    transition: stroke 250ms;
+}
+
+.subscribe-modal-close:hover .subscribe-modal-close-svg, .subscribe-modal-close:focus .subscribe-modal-close-svg{
+    stroke: var(--color-auxiliary);
+}
+
 .subscribe-modal-wrapper {
     /* Positioning */
     padding: 32px 24px;

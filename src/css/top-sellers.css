@@ -266,6 +266,11 @@ display: block;
   border-radius: 15px;
   transform: translateX(-50%);
 }
+
+.top-sellers-btn{
+  cursor: pointer;
+}
+
 .top-seller-btn-close {
   position: absolute;
   right: 14px;
@@ -534,6 +539,7 @@ display: block;
     right: 24px;
     top: 24px;
   }
+  
   .top-seller-title {
     font-size: 24px;
     line-height: 1.17;
