@@ -90,14 +90,17 @@ h2 {
 
 @media  screen and (min-width: 375px) {
     .advantages-container {
-        max-width: 335px;
-        padding-right: 20px;
-        padding-left: 20px;
+        max-width: 375px;
+        
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .advantages-item {
+        padding-right: 28px;
+    }
     
 }
+
 
 @media screen and (max-width:767px) {
     
@@ -110,13 +113,14 @@ h2 {
 
 @media screen and (min-width: 768px) {
     .advantages-container {
-        max-width: 704px;
-        padding-left: 32px;
+        max-width: 756px;
+        
         padding-top: 50px;
         padding-bottom: 50px;
     }
     .advantages-item {
         max-width: 308px;
+        padding-right: 28px;
     }
 }
 
@@ -132,9 +136,8 @@ h2 {
 
 @media screen and (min-width: 1200px) {
     .advantages-container {
-        max-width: 1100px;
-        padding-left: 50px;
-        padding-right: 50px;
+        max-width: 1200px;
+
     }
     .advantages-list {
         display: flex;
@@ -143,6 +146,8 @@ h2 {
     }
     .advantages-item {
         padding-right: 18px;
+        padding-top: 9px;
+        padding-bottom: 9px;
         position: relative;
     }
 
