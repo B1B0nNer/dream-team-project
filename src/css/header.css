@@ -56,7 +56,7 @@ ul {
 /*================== HEADER =================*/
 
 .header-page {
-  background-color: #ffffff;
+  background-color: #FAFAFA;
   padding-top: 20px;
   padding-bottom: 14px;
   top: 0;
@@ -344,6 +344,10 @@ ul {
     color: #111111;
   }
 
+  .header-link:is(:hover, :focus) {
+  color: var(--accent-color);
+}
+
   .header-soc-list {
     display: flex;
     flex-direction: row;
@@ -355,4 +359,8 @@ ul {
     stroke: #111111;
     fill: #ffffff;
   }
+
+  .header-soc-icon:is(:hover, :focus) {
+  stroke: var(--accent-color);
+}
 }
