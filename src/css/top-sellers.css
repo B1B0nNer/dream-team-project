@@ -422,6 +422,10 @@ display: block;
 .top-seller-modal-input:placeholder-shown:focus,
 .top-seller-textarea:placeholder-shown:focus {
   border-color: var(--color-auxiliary);
+  
+}
+.top-seller-textarea::placeholder{
+  color: rgba(64, 64, 64, 0.3);
 }
 .btn-submit-top-seller:is(:hover, :focus) {
   color: var(--color-auxiliary);
