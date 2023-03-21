@@ -60,22 +60,22 @@
                         a bean just like the coffee bean called Cacao. Cacao has been around for thousands 
                         of years and was first discovered by
                          the Native American tribe called the Mayans.</p>
-                    <button  type="button" class="top-sellers-btn "  data-modal-open >Buy now</button>
+                    <button  type="button" class="top-sellers-btn "  top-data-modal-open >Buy now</button>
                 </div>
  
         </div>
     </section>
-    <div class="top-seller-backdrop is-hidden" data-modal>
+    <div class="top-seller-backdrop is-hidden" top-data-modal>
         <div class="top-seller-modal">
-          <button type="button" class="top-seller-btn-close" data-modal-close>
+          <button type="button" class="top-seller-btn-close" top-data-modal-close>
             <svg class="top-seller-icon-close" width="24" height="24">
               <use href="../public/icons.svg#icon-x"></use>
             </svg>
           </button>
           <h2 class="top-seller-title"><span class="sp-top-seller">bUY</span> nOW</h2>
           <div class="top-seller-wrrap">
-            <ui class="modal-list list">
-              <li class="modal-item">
+            <ui class="top-modal-list list">
+              <li class="top-seller-modal-item">
                 <picture>
                   <source
                     srcset="
@@ -100,7 +100,7 @@
                 </picture>
                 <button type="button" class="btn-weight">100 g</button>
               </li>
-              <li class="modal-item">
+              <li class="top-seller-modal-item">
                 <picture>
                   <source
                     srcset="
@@ -122,7 +122,7 @@
                 /></picture>
                 <button type="button" class="btn-weight">200 g</button>
               </li>
-              <li class="modal-item">
+              <li class="top-seller-modal-item">
                 <picture>
                   <source
                     srcset="
@@ -146,6 +146,8 @@
               </li>
             </ui>
           </div>
+
+          
           <div class="swiper">         
             <div class="swiper-wrapper">
               <!-- Slides -->
@@ -193,12 +195,12 @@
           <form class="top-seller-form">
             <div class="top-seller-input-wrrap">
               <label class="top-seller-lable too">
-                <span class="span-label"> Personal information</span>
+                <span class="top-span-label"> Personal information</span>
                 <input
                   type="text"
                   name="name"
                   placeholder="Name"
-                  class="top-seller-modal-input one go"
+                  class="top-seller-modal-input top-one top-go"
                 />
               </label>
               <label class="top-seller-lable">
@@ -206,11 +208,11 @@
                   type="text"
                   name="surname"
                   placeholder="Surname"
-                  class="top-seller-modal-input one"
+                  class="top-seller-modal-input top-one"
               /></label>
             </div>
             <label class="top-seller-lable">
-              <span class="sp-label"> Email</span>
+              <span class="top-span-label"> Email</span>
   
               <input
                 type="email"
@@ -220,25 +222,25 @@
               />
             </label>
             <label class="top-seller-lable">
-              <span class="sp-label">Phone number</span>
-              <span class="container-span-phone">
+              <span class="top-span-label">Phone number</span>
+              <span class="top-container-span-phone">
                 <span class="wrrap-icon-phone">
-                  <svg class="icon-ukr" width="24" height="24">
+                  <svg class="icon-ukraine" width="24" height="24">
                     <use href="../public/icons.svg#icon-Ukraine"></use>
                   </svg>
-                  <span class="phone-number">+380</span>
+                  <span class="top-phone-number">+380</span>
                 </span>
                 <input
                   type="tel"
                   name="phone"
                   placeholder="Phone number"
-                  class="top-seller-modal-input phone"
+                  class="top-seller-modal-input top-phone"
               /></span>
             </label>
             <label class="top-seller-lable">
-              <span class="sp-label"> Card number</span>
+              <span class="top-span-label"> Card number</span>
               <span class="container-span-card">
-                <svg class="icon-card" width="32" height="21">
+                <svg class="top-seller-icon-card" width="32" height="21">
                   <use href="../public/icons.svg#MasterCard"></use>
                 </svg>
                 <input
@@ -250,7 +252,7 @@
               </span>
             </label>
             <label class="top-seller-lable">
-              <span class="sp-label"> Comment</span>
+              <span class="top-span-label"> Comment</span>
               <textarea
                 name="comment"
                 cols="30"

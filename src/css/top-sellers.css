@@ -247,7 +247,7 @@ display: block;
 .top-seller-btn-close:is(:hover, :focus) .top-seller-icon-close {
   stroke: var(--color-auxiliary);
 }
-.modal-list {
+.top-modal-list {
   display: flex;
   gap: 40px;
 }
@@ -325,10 +325,10 @@ display: block;
   display: flex;
   flex-direction: column;
 }
-.input-wrrap {
+.top-seller-input-wrrap {
   margin-bottom: 18px;
 }
-.sp-label {
+.top-span-label {
   display: block;
   margin-bottom: 8px;
   font-weight: 500;
@@ -358,20 +358,20 @@ display: block;
 .top-seller-lable {
   margin-bottom: 18px;
 }
-.go {
+.top-go {
   margin-bottom: 14px;
 }
 .container-span-card {
   position: relative;
 }
-.icon-card {
+.top-seller-icon-card {
   position: absolute;
   top: 50%;
   right: 12px;
   z-index: 1;
   transform: translateY(-50%);
 }
-.phone {
+.top-phone {
   padding: 10px 29px 11px 106px;
 }
 .wrrap-icon-phone {
@@ -386,10 +386,10 @@ display: block;
   z-index: 1;
   transform: translateY(-50%);
 }
-.container-span-phone {
+.top-container-span-phone {
   position: relative;
 }
-.phone-number {
+.top-phone-number {
   margin-left: 8px;
 }
 .top-seller-textarea {
@@ -435,13 +435,13 @@ display: block;
 .top-seller-wrrap{
   position: absolute;
 }
-.modal-list{
+.top-modal-list{
   display: none;
   position: absolute;
 }
 
 @media screen and (max-width: 767px) {
-  .modal-item {
+  .top-seller-modal-item {
     text-align: center;
     min-width: 231px;
     min-height: 257px;
@@ -459,7 +459,7 @@ display: block;
   .top-seller-wrrap{
     position: relative;
   }
-  .modal-list{
+  .top-modal-list{
     display: flex;
     position: relative;}
 
@@ -472,10 +472,10 @@ display: block;
     margin-bottom: 18px;
     margin-right: 21px;
   }
-  .one {
+  .top-one {
     min-width: 246px;
   }
-  .go {
+  .top-go {
     margin-bottom: 0;
   }
   .top-seller-modal-input {
@@ -500,7 +500,7 @@ display: block;
     background: #fafafa;
     box-shadow: 2.72246px 0px 0px rgba(0, 0, 0, 0.1);
   }
-  .phone-number {
+  .top-phone-number {
     margin-left: 18px;
   }
   .icon-card {
@@ -544,7 +544,7 @@ display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .modal-item {
+  .top-seller-modal-item {
     min-width: 160px;
     padding: 24px 20px 18px 20px;
     text-align: center;
@@ -552,7 +552,7 @@ display: block;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
   }
-  .modal-list {
+  .top-modal-list {
     gap: 16px;
   }
   .btn-weight {
