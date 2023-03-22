@@ -14,7 +14,7 @@ links.forEach(link => {
     const scrollTop = target.getBoundingClientRect().top;
 
     // Вычисляем продолжительность анимации в зависимости от расстояния, на которое нужно прокрутить страницу
-    const duration = Math.abs(scrollTop) / 4;
+    const duration = Math.abs(scrollTop) / 7;
 
     // Функция, которая будет вызываться каждый кадр анимации
     function step(timestamp) {
