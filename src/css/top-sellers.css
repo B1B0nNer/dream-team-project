@@ -169,7 +169,6 @@ color:var(--orange-accent) ;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 100px;
   
 }
 .top-sellers-btn{
@@ -206,7 +205,6 @@ display: block;
 }
 
 .top-sellers-tab-wrap{
-  margin-bottom: 128px;
   align-items: center;
 }
 .top-sellers-picture{

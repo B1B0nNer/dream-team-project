@@ -94,6 +94,12 @@ a {
     gap: 14px;
 }
 
+.soc-link-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-footer {
     margin-top: 64px;
 }

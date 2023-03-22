@@ -11,8 +11,14 @@ ul {
   list-style-type: none;
 }
 
+picture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .components {
-  margin: 72px 0;
+  padding: 72px 0;
   background-color: #fafafa;
 }
 
@@ -227,7 +233,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   .components {
-    margin: 100px 0;
+    padding: 100px 0;
   }
 
   .components-container {
@@ -258,6 +264,22 @@ ul {
     width: calc((100% - 32px) / 2);
   }
 
+  .flip1{
+    order: 1;
+  }
+
+  .flip2{
+    order: 2;
+  }
+
+  .flip3{
+    order: 3;
+  }
+
+  .flip4{
+    order: 4;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -267,7 +289,7 @@ ul {
     gap: 19px;
   }
   .components {
-    margin: 128px 0;
+    padding: 128px 0;
   }
 
   .components-container {

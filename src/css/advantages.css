@@ -95,16 +95,13 @@ h2 {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .advantages-item {
-        padding-right: 28px;
-    }
     
 }
 
 
 @media screen and (max-width:767px) {
     
-    .advantages-item {
+    .advantages-item:not(:last-child) {
         margin-bottom: 20px;
     }
 
@@ -120,6 +117,9 @@ h2 {
     }
     .advantages-item {
         max-width: 308px;
+    }
+
+    .advantages-item:first-child{
         padding-right: 28px;
     }
 }
@@ -146,8 +146,6 @@ h2 {
     }
     .advantages-item {
         padding-right: 18px;
-        padding-top: 9px;
-        padding-bottom: 9px;
         position: relative;
     }
 

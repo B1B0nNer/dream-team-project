@@ -89,7 +89,6 @@ img {
 padding: 20px 14px;
 background-color: #ffffff;
 border-radius: 15px;
-width: 307px;
 margin: 0 auto;
 
 }
@@ -177,7 +176,7 @@ margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 550px;
+        width: 614px;
     }
 
     .about-made-title {
@@ -216,7 +215,7 @@ margin: 0 auto;
     }
 
     .made-wrap {
-        padding: 32px 32px 94px;
+        padding: 32px;
         width: 516px;
     }
 

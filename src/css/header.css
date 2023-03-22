@@ -16,6 +16,10 @@ p {
   margin: 0;
 }
 
+svg{
+  display: block;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -30,26 +34,28 @@ ul {
   text-decoration: none;
 }
 .container {
-  max-width: 335px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 365px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 375px;
+    max-width: 365px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
-    max-width: 768px;
+    max-width: 734px;
+    padding: 0 15px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1166px;
+    padding: 0 15px;
   }
 }
 
@@ -68,9 +74,13 @@ ul {
   justify-content: space-between;
 }
 
-.header-logo-text1 {
+.header-logo{
+  display: flex;
+  align-items: center;
+}
+
+.header-logo span{
   font-family: 'Montserrat';
-  font-style: italic;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.29;
@@ -78,14 +88,12 @@ ul {
   color: #111111;
 }
 
+.header-logo-text1 {
+  font-style: italic;
+}
+
 .header-logo-text2 {
-  font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.03em;
-  color: #111111;
 }
 
 .header-logo-text1,
@@ -247,9 +255,8 @@ ul {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+    max-width: 734px;
+    padding: 0 15px;
   }
 
   .header-list,
@@ -297,7 +304,8 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1136px;
+    max-width: 1164px;
+    padding: 0 15px;
   }
   .mob-menu,
   .menu-open {

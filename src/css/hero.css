@@ -70,10 +70,13 @@ img {
   margin: -1px;
 }
 .hero {
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 .hero-wrapp {
-  padding-top: 395px;
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   padding-right: 16px;
   padding-left: 20px;
   padding-bottom: 20px;
@@ -188,10 +191,10 @@ img {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
   .hero-wrapp {
-    padding-top: 671px;
+    height: 890px;
     padding-right: 40px;
     padding-left: 40px;
     padding-bottom: 40px;
@@ -240,10 +243,10 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    margin-bottom: 72px;
+    padding-bottom: 72px;
   }
   .hero-wrapp {
-    padding-top: 381px;
+    height: 600px;
     padding-right: 40px;
     padding-left: 40px;
     padding-bottom: 40px;
@@ -484,6 +487,7 @@ img {
 }
 .container-span-phone {
   position: relative;
+  display: block;
 }
 .namber-hero {
   margin-left: 8px;
