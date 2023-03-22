@@ -1,6 +1,5 @@
 import "./java-script/mobile-menu"
 import "./java-script/products"
-import "./java-script/slick.min"
 import "./java-script/smoothScroll"
 import "./java-script/subscribe"
 import "./java-script/swiper"
