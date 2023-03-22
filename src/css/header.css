@@ -342,9 +342,9 @@ ul {
     color: #111111;
   }
 
-  .header-link:is(:hover, :focus) {
-    stroke: var(--accent-color);
-  }
+  /* .header-link:is(:hover, :focus) {
+    color: var(--accent-color);
+  } */
 
   .header-soc-list {
     display: flex;
