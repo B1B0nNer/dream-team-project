@@ -14,7 +14,8 @@
     
     
 
-  <link rel="stylesheet" href="/dream-team-project/assets/index-0c91f25e.css">
+  <script type="module" crossorigin src="/dream-team-project/assets/index-2103be56.js"></script>
+  <link rel="stylesheet" href="/dream-team-project/assets/index-68e69a05.css">
 </head>
 
 <body>
@@ -54,24 +55,22 @@
       </div>
     </nav>
 
-    <div class="header-thumb-soc-list">
-      <ul class="header-soc-list">
-        <li class="header-soc-item">
-          <a href="" class="header-soc-link" target="_blank">
-            <svg class="header-soc-icon" width="24" height="24">
-              <use href="/dream-team-project/assets/icons-43b24442.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-soc-item">
-          <a href="" class="header-soc-link" target="_blank">
-            <svg class="header-soc-icon" width="24" height="24">
-              <use href="/dream-team-project/assets/icons-43b24442.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
+    <ul class="header-soc-list">
+      <li class="header-soc-item">
+        <a href="https://www.instagram.com/" class="header-soc-link" target="_blank">
+          <svg class="header-soc-icon" width="24" height="24">
+            <use href="/dream-team-project/assets/icons-43b24442.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-soc-item">
+        <a href="https://twitter.com/twitter?lang=uk" class="header-soc-link" target="_blank">
+          <svg class="header-soc-icon" width="24" height="24">
+            <use href="/dream-team-project/assets/icons-43b24442.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
 
     <button class="menu-open js-open-menu" type="button">
       <svg class="icon-menu-open" width="21" height="14">
@@ -134,23 +133,21 @@
   </div>
 </header>
 
-<script src="./js/mobile-menu.js"></script>
-
 
   
 <section class="hero">
   <h1 class="visually-hidden">HERO</h1>
   <div class="container">
     <div class="hero-wrapp">
-      <h2 class="title-hero">
+      <p class="title-hero">
         Treat yourself or a loved one to our finest ingredients for a moment
         of pure delight!
-      </h2>
+      </p>
       <div class="btn-wrapp">
         <button type="button" class="btn-modal" data-modal-open>
           Buy now
         </button>
-        <a href="#howmade" class="btn-link-section"> How it’s made </a>
+        <a href="#made" class="btn-link-section"> How it’s made </a>
         <a href="#foots" class="btn-link-foot">
           scroll down
           <span class="soc-scrol">
@@ -303,7 +300,7 @@
 
   <section class="advantages">
   <div class="advantages-container">
-    <h1 class="visually-hidden">Our advantages</h1>
+    <h2 class="visually-hidden">Our advantages</h2>
     <ul class="advantages-list">
       <li class="advantages-item line">
         <span class="advantages-icon-wrap">
@@ -314,7 +311,7 @@
           </svg>
         </span>
         <div class="advantages-container-text">
-          <h2 class="advantages-title">Unsurpassed taste</h2>
+          <h3 class="advantages-title">Unsurpassed taste</h3>
           <p class="advantages-text">
             Crafted with the finest quality cocoa beans and a dedication to
             perfection, each bite is a decadent experience that simply cannot be
@@ -330,7 +327,7 @@
           </svg>
         </span>
         <div class="advantages-container-text">
-          <h2 class="advantages-title">Affordable price</h2>
+          <h3 class="advantages-title">Affordable price</h3>
           <p class="advantages-text">
             Indulge in high-quality chocolate without breaking the bank with
             Simply Chocolate's selection of affordable treats. Enjoy
@@ -347,7 +344,7 @@
           </svg>
         </span>
         <div class="advantages-container-text">
-          <h2 class="advantages-title">Own production</h2>
+          <h3 class="advantages-title">Own production</h3>
           <p class="advantages-text">
             We take pride in our own production process, ensuring that every
             step is carefully crafted to perfection. From selecting the finest
@@ -374,7 +371,7 @@
         step of our process adds up to one exceptional taste sensation.
       </p>
       <ul class="components-list">
-        <li class="flip-card">
+        <li class="flip-card flip1">
         <div class="flip-card-inner">
           <div class="flip-card-front chocolate-item">
             <picture>
@@ -409,7 +406,7 @@
           </div>
         </div>
     </li>
-    <li class="flip-card">
+    <li class="flip-card flip3">
       <div class="flip-card-inner">
         <div class="flip-card-front milk-item">
           <picture>
@@ -440,7 +437,7 @@
         </div>
       </div>
     </li>
-    <li class="flip-card">
+    <li class="flip-card flip4">
       <div class="flip-card-inner">
         <div class="flip-card-front nuts-item">
           <picture>
@@ -471,7 +468,7 @@
         </div>
       </div>
     </li>
-    <li class="flip-card">
+    <li class="flip-card flip2">
       <div class="flip-card-inner">
         <div class="flip-card-front semi-item">
           <picture>
@@ -722,11 +719,6 @@
     </div>
 </section>
 
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script src="./JS/slick.min.js"></script>
-<script src="./JS/products.js"></script>
-
-
   
 <section class="top-sellers" id="sellers">
   <div class="container">
@@ -950,13 +942,6 @@
     </form>
   </div>
 </div>
-    
-    
-
-<script src="./JS/top-seller-modal.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-<script src="./js/swiper.js"></script>
-
 
   <section class="reviews-container" id="reviews">
   <h2 class="title">Chocolate<span class="choco"> is loved</span></h2>
@@ -1168,7 +1153,7 @@
                         chocolate</span>
                     first!</p>
                 <form class="subscribe-modal-form">
-                    <input type="email" class="subscribe-modal-email" placeholder="Enter your email">
+                    <input type="email" name="email" class="subscribe-modal-email" placeholder="Enter your email">
                     <button type="submit" class="subscribe-modal-submit">Submit</button>
                 </form>
             </div>
@@ -1179,26 +1164,24 @@
   <footer class="footer" id="foots">
   <div class="container-footer">
     <div class="footer-wrap">
-      <div class="title-footer">
-        <p class="first-slogan-footer">
-          Chocolate
-          <span class="second-slogan-footer"
-            >a delicious cure for a bad day</span
-          >
-        </p>
-      </div>
+      <p class="first-slogan-footer title-footer">
+        Chocolate
+        <span class="second-slogan-footer"
+          >a delicious cure for a bad day</span
+        >
+      </p>
       <div class="contacts-main-footer">
         <div class="contacts-footer">
           <p class="text-footer">Contact us</p>
           <address class="address-footer">
             <ul class="list-footer">
               <li class="item-footer">
-                <a class="link-footer" href="tel:+380684439426"
+                <a class="link-footer" target="_blank" href="tel:+380684439426"
                   >+380 (68) 443-94-26</a
                 >
               </li>
               <li class="item-footer">
-                <a class="link-footer-mail" href="mailto:simplychoc@gmail.com"
+                <a class="link-footer-mail" target="_blank" href="mailto:simplychoc@gmail.com"
                   >simplychoc@gmail.com</a
                 >
               </li>
@@ -1208,7 +1191,7 @@
         <div class="social-media-footer">
           <ul class="soc-list-footer">
             <li class="soc-item-footer">
-              <a class="soc-link-footer" href="https://www.instagram.com/">
+              <a class="soc-link-footer" target="_blank" href="https://www.instagram.com/">
                 <svg class="icon-footer" width="22" height="22">
                   <use href="/dream-team-project/assets/icons-c4eec1ad.svg#icon-instagram"></use>
                 </svg>
@@ -1217,6 +1200,7 @@
             <li class="soc-item-footer">
               <a
                 class="soc-link-footer"
+                target="_blank"
                 href="https://twitter.com/twitter?lang=uk"
               >
                 <svg class="icon-footer" width="22" height="22">
@@ -1251,17 +1235,8 @@
 </footer>
 
   
-  <script src="./JS/mobile-menu.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <script src="./JS/products.js"></script>
-  <script src="./JS/slick.min.js"></script>
-  <script src="./JS/subscribe.js"></script>
-  <script src="./JS/swiper.js"></script>
-  <script src="./JS/top-seller-modal.js"></script>
-  <script src="./JS/top-seller-modal.js"></script>
-  <script src="./herojs/heromodal.js"></script>
-  <script src="./JS/smoothScroll.js"></script>
-
+  
 </body>
 
 </html>
