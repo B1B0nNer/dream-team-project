@@ -482,7 +482,7 @@ display: block;
     padding: 22px 24px;
     height: 66px;
   }
-  .span-label {
+  .top-span-label {
     font-size: 14px;
     line-height: 1.29;
   }
@@ -491,7 +491,7 @@ display: block;
     font-size: 18px;
     line-height: 1.2;
   }
-  .phone {
+  .top-seller-icon-close {
     padding: 21px 99px 21px 177px;
   }
   .wrrap-icon-phone {
