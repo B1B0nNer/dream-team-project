@@ -255,7 +255,7 @@ display: block;
   position: absolute;
   top: 20px;
   left: 50%;
-  max-width: 311px;
+  min-width: 311px;
   min-height: 100%;
   padding: 32px 24px;
   margin-left: auto;
@@ -303,9 +303,8 @@ display: block;
 }
 
 
-.btn-weight {
+.top-btn-weight {
   padding: 8px 29px;
-  margin-top: 16px;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
@@ -314,7 +313,7 @@ display: block;
   border-radius: 100px;
   transition: background 250ms linear;
 }
-.btn-weight:is(:hover, :focus) {
+.top-btn-weight:is(:hover, :focus) {
   background-color: var(--color-auxiliary);
 
 }
@@ -322,6 +321,7 @@ display: block;
 
 /*--------------------- FORM ---------------------------*/
 .top-seller-form {
+  margin-top: 32px;
   display: flex;
   flex-direction: column;
 }
@@ -561,33 +561,45 @@ display: block;
   }
   .btn-weight {
     padding: 8px 27px;
-    margin-top: 14px;
+    
   }
 }
 /* ---------------------------SWIPER----------------------- */
-.swiper {
+.top-seller-modal .swiper {
+  width: 231px;
+  /* height: 257px; */
+  /* background-color: #ffffff; */
+  /* border: 1px solid rgba(17, 17, 17, 0.1); */
+  /* border-radius: 15px; */
+  /* margin-bottom: 32px; */
+}
+.top-seller-modal .swiper-wrapper{
+  /* position: relative; */
+  padding-top: 0;
   width: 231px;
   height: 257px;
   background-color: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
-.swiper-wrapper{
-  position: relative;
 
-}
-.swiper-slide{
+.top-seller-modal .swiper-wrapper .swiper-slide{
   display: flex;
+  /* display: flex; */
   /* text-align: center; */
   /* max-width: 100%; */
   /* margin-bottom: 30px; */
-  flex-direction: column;
+  height: 257px;
+  border: none;
+  padding-top: 0;
+  box-shadow: none;
+  border-radius: 15px;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-.swiper-wrapper .swiper-slide{
-  display: flex;
-}
+
 
 .swiper .swiper-pagination-bullet{   
   width: 13px;
@@ -597,7 +609,7 @@ display: block;
   background:rgba(17, 17, 17, 0.1);;
   opacity: 2;
 }
-.swiper .swiper-pagination-bullet-active {
+.top-seller-modal .swiper .swiper-pagination-bullet-active {
     opacity: 1;
     background: var(--orange-accent);
     width: 28px;
@@ -605,7 +617,7 @@ display: block;
     display: inline-block;
     border-radius: 7px;
   }
-.slider-img{
+  .top-seller-modal .top-slider-img{
   margin-bottom: 16px;
 }
 
