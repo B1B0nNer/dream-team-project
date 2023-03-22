@@ -458,7 +458,12 @@ display: block;
     border-radius: 15px;
   }
 }
+
 @media screen and (min-width: 768px) {
+  
+  .top-seller-modal-input.top-phone{
+    padding-left: 165px;
+  }
   .top-seller-backdrop .swiper {
     display: none;
   }
