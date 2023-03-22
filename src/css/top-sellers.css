@@ -451,6 +451,7 @@ display: block;
     border-radius: 15px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .top-seller-backdrop .swiper {
     display: none;
@@ -478,8 +479,11 @@ display: block;
   .top-go {
     margin-bottom: 0;
   }
+  .top-phone{
+    padding: 10px 29px 11px 166px;
+  }
   .top-seller-modal-input {
-    padding: 22px 24px;
+   
     height: 66px;
   }
   .top-span-label {
