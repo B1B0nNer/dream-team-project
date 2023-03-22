@@ -1,4 +1,3 @@
-import "./partials/chocolate/swiper/swiper.min"
 import "./java-script/mobile-menu"
 import "./java-script/products"
 import "./java-script/smoothScroll"
