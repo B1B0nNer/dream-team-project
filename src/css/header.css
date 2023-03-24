@@ -16,6 +16,13 @@ p {
   margin: 0;
 }
 
+<<<<<<< Updated upstream
+=======
+svg {
+  display: block;
+}
+
+>>>>>>> Stashed changes
 ul {
   margin: 0;
   padding: 0;
@@ -68,7 +75,16 @@ ul {
   justify-content: space-between;
 }
 
+<<<<<<< Updated upstream
 .header-logo-text1 {
+=======
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo span {
+>>>>>>> Stashed changes
   font-family: 'Montserrat';
   font-style: italic;
   font-weight: 700;
@@ -133,6 +149,7 @@ ul {
   position: fixed;
   min-width: 220px;
   height: 100%;
+  z-index: 10;
 
   top: 0;
   right: 0;
@@ -240,6 +257,7 @@ ul {
 
 .mob-soc-icon {
   stroke: #ffffff;
+  fill:#1e1823
 }
 .mob-soc-icon:is(:hover, :focus) {
   stroke: var(--accent-color);
@@ -347,8 +365,13 @@ ul {
   }
 
   .header-link:is(:hover, :focus) {
+<<<<<<< Updated upstream
   color: var(--accent-color);
 }
+=======
+    color: var(--accent-color);
+  }
+>>>>>>> Stashed changes
 
   .header-soc-list {
     display: flex;
@@ -359,7 +382,7 @@ ul {
 
   .header-soc-icon {
     stroke: #111111;
-    fill: #ffffff;
+    fill: #fafafa;
   }
 
   .header-soc-icon:is(:hover, :focus) {
