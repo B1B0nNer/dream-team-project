@@ -247,7 +247,7 @@ p {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 15px;
   letter-spacing: -0.02em;
 }
 
@@ -377,6 +377,7 @@ p {
 
   .pre-phone {
     font-size: 18px;
+    line-height: 22px;
   }
 
   .modal-icon {
