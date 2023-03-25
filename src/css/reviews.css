@@ -23,9 +23,9 @@ p {
 }
 
 .reviews-container {
-  padding: 40px 0;
   margin: 0 auto;
   max-width: 375px;
+  padding-bottom: 72px;
 }
 
 .title {
@@ -326,6 +326,7 @@ p {
 @media only screen and (min-width: 768px) {
   .reviews-container {
     max-width: 768px;
+    padding-bottom: 128px;
   }
 
   .modal {
